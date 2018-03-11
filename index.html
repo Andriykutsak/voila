@@ -7,6 +7,8 @@
 	<!-- css -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/resset.css">
+	<!-- font awesome icons -->
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i|PT+Serif|Lato" rel="stylesheet">
 </head>
@@ -18,6 +20,11 @@
 		<div class="menu">
 			<div class="logo"><a href="index.html">Voilà</a></div>
 			<div class="menu-wrap">
+				<div class="res-btn">
+					<div class="row"></div>
+					<div class="row"></div>
+					<div class="row"></div>
+				</div>
 				<ul class="head-list">
 					<li><a href="">menu</a>
 <div class="item-desc">Sit amet constetur adipisicing elit. Fugit perspiciatis.</div>
@@ -47,23 +54,29 @@
 	<!-- end header -->
 
 	<!-- about section -->
-	<div class="about-section">
+<div class="about-section">
 		<div class="container">
 			<div class="flex-container">
-				<div class="block left">
-					<div class="text-block">
-						<h2 class="text-center">About Voila Restaurant</h2>
-						<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis lorem nec enim tempus viverra condimentum eget dui. Quisque ac ornare orci lacinia facilisis velit <a href="#">eget interdum.</a>
-Quisque orci neque, euismod vitae turpis quis, accumsan iaculis velit. Nulla lacinia facilisis velit eget interdum.</p>
-						<div class="btn-block">read more</div>
-					</div><img src="img/Eric-McGregor-flickr1.jpg" alt="ericMcGRegor"  class="block-img">
+				<div class="block">
+					<h2 class="text-center">About Voila Restaurant</h2>
+				<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis lorem nec enim tempus viverra condimentum eget dui. Quisque ac ornare orci lacinia facilisis velit eget interdum.</p>
+				<p class="about-desc">Quisque orci neque, euismod vitae turpis quis, accumsan iaculis velit. Nulla lacinia facilisis velit eget interdum.</p>
+				<div class="btn about">read more</div>
+			
+				<img src="img/Eric-McGregor-flickr1.jpg" alt="" class="i-img">	
+				
+				
 				</div>
-				<div class="block right">
-					<img src="img/glass-of-wine.jpg" alt="glass of wine" class="blockmg">
-					<div class="flex-container">
-						<img src="img/Restaurant-kitchen.jpg" alt="restouran kitchen">
-						<img src="img/meat.jpg" alt="meat">
+				<div class="block">
+					<div class="under-layer">
+						<img src="img/glass-of-wine.jpg" alt=""">
 					</div>
+					
+					<div class="flex-container">
+						<img src="img/Restaurant-kitchen.jpg" alt="" class="gal-img">
+					<img src="img/meat.jpg" alt="" class="gal-img">
+					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -73,13 +86,15 @@ Quisque orci neque, euismod vitae turpis quis, accumsan iaculis velit. Nulla lac
 	<div class="menu-block">
 		<div class="container">
 					<div class="flex-container">
-			<div class="block"><div class="img-wrap">
+			<div class="block">
+				<div class="img-wrap">
 				<div class="flex-container">
-					<img src="img/Steak.jpg" alt="steack">
-					<img src="img/beef.jpg" alt="staeck">
+					<img src="img/Steak.jpg" alt="steack" class="f-img">
+					<img src="img/beef.jpg" alt="staeck" class="s-img">
 				</div>
 				<img src="img/Cup-cakes.jpg" alt="cakes">
 			</div></div>
+
 			<div class="block">
 				<h2 class="text-center menu-head">Tasteful French Cuisine</h2>
 				<p class="menu-desc">Lorem Ipsum roin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit <a href="#">consequat ipsum</a>, nec sagittis sem nibh id elit.</p> 
@@ -98,27 +113,29 @@ Quisque orci neque, euismod vitae turpis quis, accumsan iaculis velit. Nulla lac
 				<div class="block">
 					<h2 class="text-center order-head">Make a Reservation</h2>
 
-					<form action="">
-						<div class="field-wrap">
+					<form action="" class="form-container">
 
 						
 							<div class="inp-wrap">
-									<input type="text" name="name" placeholder="Name*" class="name">
+									<input type="text" name="name" placeholder="Name*" class="name"> <i class="far fa-user"></i>
 							</div>
 						
 						<div class="inp-wrap">
 							<input type="text" name="date" placeholder="Date*" class="date">
+							<i class="far fa-calendar"></i>
 						</div>
 						
 						<div class="inp-wrap">
 							<input type="text" name="time" placeholder="Time*" class="time">
+							<i class="far fa-clock"></i>
 						</div>
 						
 						<div class="inp-wrap">
 							<input type="text" name="comensals" placeholder="Comensals*" class="comensals">
+							<i class="fas fa-users"></i>
 						</div>
 						<input type="submit" value="Find A table">
-						</div>
+						
 						
 					</form>
 				</div>	
@@ -222,7 +239,7 @@ Quisque orci neque, euismod vitae turpis quis, accumsan iaculis velit. Nulla lac
 		<div class="flex-container">
 			<div class="logo"> <a href="index.html">Voilà</a></div>
 			<div class="block">
-				<h3 class="footer-head"></h3>
+				<h3 class="footer-head">navigation</h3>
 				<ul>
 					<li><a href="">menu</a></li>
 					<li><a href="">about</a></li>
@@ -235,11 +252,11 @@ Quisque orci neque, euismod vitae turpis quis, accumsan iaculis velit. Nulla lac
 				<h3 class="footer-head">Visit us</h3>
 				<p class="footer-desc">Nec sagittis sem nibh id elit. Duis sed odio sit amet nibh. <a href="#">View on the map.</a></p>
 				<h3 class="footer-head">connect with us</h3>
-				<ul class="flex-container">
-					<li><a href=""><span class="ico"></span></a></li>
-					<li><a href=""><span class="ico"></span></a></li>
-					<li><a href=""><span class="ico"></span></a></li>
-					<li><a href=""><span class="ico"></span></a></li>
+				<ul class="flex-container icons">
+					<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href=""><i class="fab fa-twitter"></i></a></li>
+					<li><a href=""><i class="fab fa-instagram"></i></a></li>
+					<li><a href=""><i class="fab fa-tripadvisor"></i></a></li>
 				</ul>
 			</div>
 
@@ -250,6 +267,23 @@ Quisque orci neque, euismod vitae turpis quis, accumsan iaculis velit. Nulla lac
 </footer>
 	<!-- footer -->
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+	jQuery(document).ready(function($) {
+		//
+		//(відоме*х%)*100%
+		var width=($(window).width()*45)/100;
+		console.log(width);
+		if ($(window).width()<1400) {
+	$('.block').css({
+		width: width,
+		property2: 'value2'
+	});
+	
+}
+	});
+
+</script>	
 	
 </body>
 </html>
